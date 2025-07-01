@@ -73,10 +73,7 @@ def Action(send) :
         speak.speak("songs playing...")
         return "songs playing..." 
     
-    elif 'remote control car' in data_btn:
-         speak.speak("maarenge do thappad, chup chap jaake padhai karo. padhai likhai karna nahi hai aur baith k sirf phone me gaadi gaadi gaadi....ganda bachcha")
-         return "maarenge do thappad, chup chap jaake padhai karo. padhai likhai karna nahi hai aur baith k sirf phone me gaadi gaadi gaadi....ganda bachcha"
-    
+  
     else :
         speak.speak( "i'm not able to understand!")
         return "i'm not able to understand!"       
